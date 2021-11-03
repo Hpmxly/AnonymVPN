@@ -1,0 +1,105 @@
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:100px 0;
+    height: 500px;
+}
+
+
+
+.header{
+    width: 100%;
+    min-height: 50vh;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    
+}
+
+
+.navegacion{
+    color: black;
+    height: 70px;
+    background: transparent;
+}
+
+.navegacion__contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+
+
+.logo__nombre{
+    font-size: 28px;
+    font-weight: 200;
+    transition: all 0.2s;
+}
+
+
+
+
+.link{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+.link:hover{
+    color: rgb(214, 212, 212);
+}
+
+.contenedor__principal{
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.imagen__principal{
+    object-fit: cover;
+    width: 48%;
+    max-height: 90vh;
+    position: relative;
+    left: 50%;
+    top: -290px;
+}
+
+.principal__texto{
+   
+    width: 48%;
+}
+
+.principal__titulo{
+    font-size: 56px;
+    font-weight: 300;
+    max-height: 90vh;
+}
+
+.parrafo__principal{
+    font-size: 26px;
+    margin: 15px 0;
+    color: black;
+}
+
+.boton__principal{
+    @include boton();
+}
+
+
+.boton__principal:hover{
+    text-decoration: none;
+    color: white;
+}

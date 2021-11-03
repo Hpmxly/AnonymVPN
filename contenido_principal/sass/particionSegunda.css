@@ -1,0 +1,118 @@
+.contenido__secundario {
+  height: calc(80vh - 70px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+.imagen__secundaria {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 48%;
+  max-height: 40vh;
+  position: relative;
+  left: -50px;
+}
+
+.secundario__texto {
+  width: 50%;
+}
+
+.secundario__titulo {
+  font-size: 43px;
+  font-weight: 300;
+  max-height: 90vh;
+}
+
+.parrafo__secundario {
+  margin: 10px 15px;
+  font-size: 18px;
+  color: black;
+}
+
+.boton__secundario {
+  padding: 20px 50px;
+  display: inline-block;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: white;
+  background: green;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: 10px;
+}
+
+.boton__secundario:hover {
+  background-color: #1b8f1b;
+  text-decoration: none;
+  color: white;
+}
+
+.tarjetasInfo {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.tarjetasInfo .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.tarjetasInfo .card:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tarjetasInfo .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.tarjetasInfo .card h4 {
+  font-weight: 600;
+  margin: 10px;
+}
+
+.tarjetasInfo .card p {
+  padding: 0 1rem;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.titulo__cards {
+  font-size: 46px;
+  font-weight: 300;
+  max-height: 90vh;
+  text-align: center;
+  margin: 60px 0;
+}
+/*# sourceMappingURL=particionSegunda.css.map */
