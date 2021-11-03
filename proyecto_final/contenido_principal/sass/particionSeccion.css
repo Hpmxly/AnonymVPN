@@ -1,0 +1,119 @@
+body {
+  font-family: 'Roboto',sans-serif;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 100px 0;
+  height: 500px;
+}
+
+.header {
+  width: 100%;
+  min-height: 50vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--black2)), to(var(--black1)));
+  background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+}
+
+.navegacion {
+  color: black;
+  height: 70px;
+  background: transparent;
+}
+
+.navegacion__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: inherit;
+  padding: 0;
+}
+
+.logo__nombre {
+  font-size: 28px;
+  font-weight: 200;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.link:hover {
+  color: #d6d4d4;
+}
+
+.contenedor__principal {
+  height: calc(100vh - 70px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+.imagen__principal {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 48%;
+  max-height: 90vh;
+  position: relative;
+  left: 50%;
+  top: -290px;
+}
+
+.principal__texto {
+  width: 48%;
+}
+
+.principal__titulo {
+  font-size: 56px;
+  font-weight: 300;
+  max-height: 90vh;
+}
+
+.parrafo__principal {
+  font-size: 26px;
+  margin: 15px 0;
+  color: black;
+}
+
+.boton__principal {
+  padding: 20px 30px;
+  display: inline-block;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: white;
+  background: green;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.boton__principal:hover {
+  background-color: #1b8f1b;
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=particionSeccion.css.map */

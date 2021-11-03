@@ -1,0 +1,124 @@
+.contenido__secundario{
+    height: calc(80vh - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    
+    
+    
+    
+
+}
+
+
+.imagen__secundaria{
+    object-fit: cover;
+    width: 46%;
+    max-height: 40vh;
+    position: relative;
+    left: -50px;
+    
+    
+}
+
+.secundario__texto{
+    width: 60%;
+}
+.secundario__titulo{
+    font-size: 43px;
+    font-weight: 300;
+    max-height: 90vh;
+}
+
+
+.parrafo__secundario{
+    margin: 10px 15px;
+    font-size: 18px;
+    color: black;
+
+}
+
+
+.boton__secundario{
+   @include segundoBoton();
+}
+
+
+.boton__secundario:hover{
+   
+    text-decoration: none;
+    color: white;
+}
+
+
+.titulo__cards{
+    
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    width: 40%;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.tarjetasInfo{
+    width: 100%;
+    max-width: 1200px;
+    height: 830px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    padding: 4px;
+    
+    
+}
+
+
+.tarjetasInfo .card{
+    @include card();
+}
+
+.tarjetasInfo .card:hover{
+    transform:translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+}
+
+.tarjetasInfo .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.tarjetasInfo .card h4{
+    font-weight: 600;
+    margin: 19px;
+}
+
+.tarjetasInfo .card p {
+    padding: 0 1rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+}
+
+.tarjetasInfo .card .compra{
+    width: 40%;
+    margin: 0px auto;
+    
+    padding: 10px 10px;
+    color: white;
+    background-color: #f64f64;
+    font-weight: bold;
+  
+}
+
+
+.tarjetasInfo .card .compra:hover{
+    color: white;
+    text-decoration: none;
+}
+
